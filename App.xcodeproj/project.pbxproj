@@ -6,11 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5019F5932C9C39D700BB67C6 /* NotchNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 5019F5922C9C39D700BB67C6 /* NotchNotification */; };
-		EB9158A42E0E319000A65D11 /* NotchNotification in Frameworks */ = {isa = PBXBuildFile; productRef = EB9158A32E0E319000A65D11 /* NotchNotification */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		5019F54D2C9C38D700BB67C6 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -28,8 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB9158A42E0E319000A65D11 /* NotchNotification in Frameworks */,
-				5019F5932C9C39D700BB67C6 /* NotchNotification in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +73,6 @@
 			);
 			name = App;
 			packageProductDependencies = (
-				5019F5922C9C39D700BB67C6 /* NotchNotification */,
-				EB9158A32E0E319000A65D11 /* NotchNotification */,
 			);
 			productName = NotchNotification;
 			productReference = 5019F54D2C9C38D700BB67C6 /* App.app */;
@@ -112,7 +103,7 @@
 			mainGroup = 5019F5442C9C38D700BB67C6;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				EB9158A22E0E319000A65D11 /* XCLocalSwiftPackageReference "../../NotchNotification" */,
+				EBB1FD3B2E131E5C006DC45E /* XCLocalSwiftPackageReference "../NotchNotification" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5019F54E2C9C38D700BB67C6 /* Products */;
@@ -341,22 +332,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		EB9158A22E0E319000A65D11 /* XCLocalSwiftPackageReference "../../NotchNotification" */ = {
+		EBB1FD3B2E131E5C006DC45E /* XCLocalSwiftPackageReference "../NotchNotification" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../NotchNotification;
+			relativePath = ../NotchNotification;
 		};
 /* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		5019F5922C9C39D700BB67C6 /* NotchNotification */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = NotchNotification;
-		};
-		EB9158A32E0E319000A65D11 /* NotchNotification */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = NotchNotification;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5019F5452C9C38D700BB67C6 /* Project object */;
 }
