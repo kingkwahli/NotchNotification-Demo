@@ -1,0 +1,15 @@
+{
+  "originHash" : "2b1dfa6d13cb4b3b3625eb1ca01ac6b2a54cbc3a5c1763d357e69a81b290b918",
+  "pins" : [
+    {
+      "identity" : "notchnotification",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kingkwahli/NotchNotification.git",
+      "state" : {
+        "revision" : "7ee3eb86d2c0edc0dc394ca8b25bb1ddec517c94",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
